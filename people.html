@@ -3,13 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hayoung Choi - People</title>
+  <title>Hayoung Choi – People</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      padding: 2.5rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 1.5rem;
+    }
+    nav a {
+      margin: 0 1.2rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .person {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .person img {
+      width: 120px;
+      height: auto;
+      border-radius: 5px;
+    }
+    .person-details p {
+      margin: 0.3rem 0;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 2rem 0;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 1rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Professor Hayoung Choi</h1>
-    <p>Department of Mathematics, Kyungpook National University</p>
     <nav>
       <a href="index.html">Home</a>
       <a href="publications.html">Publications</a>
@@ -22,7 +89,50 @@
 
   <main>
     <h2>People</h2>
-    <!-- Team members and students info will go here -->
+
+    <!-- 교수님 -->
+    <div class="person">
+      <img src="images/교수님.png" alt="Hayoung Choi">
+      <div class="person-details">
+        <p><strong>Hayoung Choi</strong> – Principal Investigator</p>
+        <p>Position: Assistant Professor, Ph.D.</p>
+        <p>Email: hayoung.choi@knu.ac.kr</p>
+      </div>
+    </div>
+    <hr class="divider">
+
+    <!-- 박사후 연구원 -->
+    <div class="person">
+      <img src="images/김태형.png" alt="Taehyung Kim">
+      <div class="person-details">
+        <p><strong>Taehyung Kim</strong> – Postdoctoral Researcher</p>
+        <p>Email: thkim0519@knu.ac.kr</p>
+      </div>
+    </div>
+    <hr class="divider">
+
+    <!-- 석박사연계 -->
+    <div class="person">
+      <img src="images/지연씨사진.jpg" alt="Jiyeon Lee">
+      <div class="person-details">
+        <p><strong>Jiyeon Lee</strong> – Integrated MS/PhD Student</p>
+        <p>Email: vitolee0623@knu.ac.kr</p>
+      </div>
+    </div>
+    <hr class="divider">
+
+    <!-- 학석사연계 -->
+    <div class="person">
+      <img src="images/증명사진 이현구.jpg" alt="Hyeongoo Lee">
+      <div class="person-details">
+        <p><strong>Hyeongoo Lee</strong> – Integrated BS/MS Student</p>
+        <p>Email: lewis9910@knu.ac.kr</p>
+      </div>
+    </div>
+    <hr class="divider">
+
+    <!-- 기타 구성원 생략 가능 -->
+
   </main>
 
   <footer>
