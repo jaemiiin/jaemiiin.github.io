@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hayoung Choi - Home</title>
+  <title>Contact - Hayoung Choi</title>
   <link rel="stylesheet" href="style.css">
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      font-size: 1.2rem; /* 기본 본문 크기 키움 */
+      font-size: 1.2rem;
       line-height: 1.8;
       margin: 0;
       padding: 0;
@@ -25,7 +25,7 @@
 
     header h1 {
       margin: 0;
-      font-size: 2.5rem; /* 제목 크기 증가 */
+      font-size: 2.5rem;
     }
 
     nav {
@@ -46,7 +46,7 @@
 
     main {
       padding: 2.5rem;
-      max-width: 1000px;
+      max-width: 900px;
       margin: 0 auto;
     }
 
@@ -54,15 +54,29 @@
       font-size: 2rem;
     }
 
-    .home-content {
+    .contact-content {
       display: flex;
-      align-items: flex-start;
+      flex-direction: row;
       gap: 2rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
     }
 
-    .home-content img {
-      width: 250px;
-      height: auto;
+    .contact-info {
+      flex: 1;
+    }
+
+    .contact-info p {
+      margin: 0.5rem 0;
+    }
+
+    .map-image {
+      flex: 1;
+      max-width: 400px;
+    }
+
+    .map-image img {
+      width: 100%;
       border-radius: 8px;
     }
 
@@ -88,12 +102,20 @@
   </header>
 
   <main>
-    <h2>Welcome!</h2>
-    <div class="home-content">
-      <img src="images/교수님.png" alt="KNU Mathematics Building">
-      <div>
-        <p>The Department of Mathematics at Kyungpook National University (KNU) is committed to advancing fundamental and applied mathematical sciences. Our department actively conducts research in diverse areas such as algebra, geometry, analysis, and applied mathematics. With a vibrant academic atmosphere, we aim to cultivate creative problem-solvers who can contribute to both theoretical and interdisciplinary fields.</p>
-        <p>We encourage collaboration and innovation, fostering the next generation of mathematicians through rigorous education and research opportunities. Learn more about our research, people, and ongoing academic activities through this site.</p>
+    <h2>Contact</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <p><strong>Professor:</strong> Hayoung Choi</p>
+        <p><strong>Position:</strong> Assistant Professor, Ph.D.</p>
+        <p><strong>Email:</strong> hayoung.choi@knu.ac.kr</p>
+        <p><strong>Phone:</strong> +82-53-950-5569</p>
+        <p><strong>Office:</strong> Room 420, College of Natural Sciences Building #1</p>
+        <p><strong>Department:</strong> Department of Mathematics, Kyungpook National University</p>
+        <p><strong>Address:</strong> 80 Daehak-ro, Buk-gu, Daegu, 41566, Republic of Korea</p>
+      </div>
+
+      <div class="map-image">
+        <img src="images/knu_map.png" alt="KNU Campus Map">
       </div>
     </div>
   </main>
