@@ -46,3 +46,22 @@ footer {
   font-size: 0.9rem;
   color: #888;
 }
+
+.project-table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: auto; /* 내용만큼 */
+  min-width: 900px; /* 또는 적당한 최소 너비 지정 */
+}
+
+th, td {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
