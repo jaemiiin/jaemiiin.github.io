@@ -1,21 +1,32 @@
 body {
-  font-family: sans-serif;
-  max-width: 800px;
-  margin: auto;
-  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
   background-color: #f9f9f9;
+  color: #333;
 }
 
 header {
+  background-color: #fff;
+  padding: 2rem 1rem;
   text-align: center;
-  margin-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  margin-top: 1rem;
 }
 
 nav a {
   margin: 0 1rem;
   text-decoration: none;
-  color: #2c3e50;
+  color: #333;
   font-weight: bold;
 }
 
@@ -23,8 +34,15 @@ nav a:hover {
   text-decoration: underline;
 }
 
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 footer {
   text-align: center;
-  margin-top: 3rem;
-  color: gray;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #888;
 }
