@@ -5,11 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hayoung Choi - Home</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .home-content {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+    .home-content img {
+      width: 250px;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Professor Hayoung Choi</h1>
-    <p>Department of Mathematics, Kyungpook National University</p>
     <nav>
       <a href="index.html">Home</a>
       <a href="publications.html">Publications</a>
@@ -22,8 +33,13 @@
 
   <main>
     <h2>Welcome</h2>
-    <p>Welcome to the academic homepage of Professor Hayoung Choi at the Department of Mathematics, Kyungpook National University. Our research explores various topics in mathematics with a focus on [Insert research focus].</p>
-    <p>Feel free to explore recent publications, meet the team, and learn about ongoing research projects.</p>
+    <div class="home-content">
+      <img src="images/knu_building.jpg" alt="KNU Mathematics Building">
+      <div>
+        <p>The Department of Mathematics at Kyungpook National University (KNU) is committed to advancing fundamental and applied mathematical sciences. Our department actively conducts research in diverse areas such as algebra, geometry, analysis, and applied mathematics. With a vibrant academic atmosphere, we aim to cultivate creative problem-solvers who can contribute to both theoretical and interdisciplinary fields.</p>
+        <p>We encourage collaboration and innovation, fostering the next generation of mathematicians through rigorous education and research opportunities. Learn more about our research, people, and ongoing academic activities through this site.</p>
+      </div>
+    </div>
   </main>
 
   <footer>
@@ -31,5 +47,3 @@
   </footer>
 </body>
 </html>
-
-
