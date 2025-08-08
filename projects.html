@@ -1,32 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hayoung Choi - Projects</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .project-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      font-size: 1.05rem;
+    }
+
+    .project-table th,
+    .project-table td {
+      border: 1px solid #ccc;
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+
+    .project-table thead {
+      background-color: #f2f2f2;
+    }
+
+    .project-table tbody tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Professor Hayoung Choi</h1>
-    <p>Department of Mathematics, Kyungpook National University</p>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="publications.html">Publications</a>
-      <a href="people.html">People</a>
-      <a href="news.html">News</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
   <main>
-    <h2>Projects</h2>
-    <!-- Research project details will go here -->
-  </main>
+    <h2>연구과제</h2>
 
-  <footer>
-    <p>&copy; 2025 Hayoung Choi. All rights reserved.</p>
-  </footer>
+    <table class="project-table">
+      <thead>
+        <tr>
+          <th>전문기관</th>
+          <th>연구과제명</th>
+          <th>연구원구분</th>
+          <th>참여시작일</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Aux Cayes FinTech</td>
+          <td>Ai-based financial data analysis</td>
+          <td>연구책임자</td>
+          <td>2021.12</td>
+        </tr>
+        <tr>
+          <td>동일문화장학재단</td>
+          <td>일반화된 거리 공간에서 고정점 성질</td>
+          <td>연구책임자</td>
+          <td>2022.02</td>
+        </tr>
+        <tr>
+          <td>한국연구재단</td>
+          <td>딥러닝을 이용한 그룹산재 문제의 해결과 그 응용</td>
+          <td>연구책임자</td>
+          <td>2022.03</td>
+        </tr>
+        <tr>
+          <td>한국연구재단</td>
+          <td>비선형 동역학 수리응용 센터</td>
+          <td>공동연구원</td>
+          <td>2022.06</td>
+        </tr>
+        <tr>
+          <td>한국연구재단</td>
+          <td>경북대학교 BK 수학 교육연구단</td>
+          <td>BK참여교수</td>
+          <td>2022.03</td>
+        </tr>
+        <tr>
+          <td>한국연구재단</td>
+          <td>실전문제 현장대응형 SE-KNU 인재양성 사업단</td>
+          <td>참여교수</td>
+          <td>2021.01</td>
+        </tr>
+        <tr>
+          <td>정보통신기획평가원</td>
+          <td>SW중심대학(경북대학교)</td>
+          <td>참여교수</td>
+          <td>2021.04</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
 </body>
 </html>
